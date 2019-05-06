@@ -1,0 +1,61 @@
+/usr/lib/jvm/java-8-oracle/bin/java -javaagent:/snap/intellij-idea-ultimate/139/lib/idea_rt.jar=36723:/snap/intellij-idea-ultimate/139/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/deploy.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-oracle/jre/lib/javaws.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfxswt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/management-agent.jar:/usr/lib/jvm/java-8-oracle/jre/lib/plugin.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/home/arek/Pulpit/AlgoL3Java/target/classes MainOf3 -p
+Give number of nodes: 
+9
+Give number of edges: 
+13
+Give an edge: 
+1 2 4
+I had got edge: from 1 to 2 with weight 4
+Give an edge: 
+2 6 8
+I had got edge: from 2 to 6 with weight 8
+Give an edge: 
+6 7 7
+I had got edge: from 6 to 7 with weight 7
+Give an edge: 
+7 8 9
+I had got edge: from 7 to 8 with weight 9
+Give an edge: 
+8 9 10
+I had got edge: from 8 to 9 with weight 10
+Give an edge: 
+9 4 2
+I had got edge: from 9 to 4 with weight 2
+Give an edge: 
+4 3 1
+I had got edge: from 4 to 3 with weight 1
+Give an edge: 
+3 1 -2
+I had got edge: from 3 to 1 with weight -2
+Give an edge: 
+2 3 11
+I had got edge: from 2 to 3 with weight 11
+Give an edge: 
+3 5 7
+I had got edge: from 3 to 5 with weight 7
+Give an edge: 
+5 6 0
+I had got edge: from 5 to 6 with weight 0
+Give an edge: 
+5 4 6
+I had got edge: from 5 to 4 with weight 6
+Give an edge: 
+6 9 4
+I had got edge: from 6 to 9 with weight 4
+
+
+You have chosen Prim algorithm
+
+
+u= 0 v =2 w= -2 
+u= 2 v =3 w= 1 
+u= 3 v =8 w= 2 
+u= 8 v =5 w= 4 
+u= 5 v =4 w= 0 
+u= 0 v =1 w= 4 
+u= 5 v =6 w= 7 
+u= 6 v =7 w= 9 
+Amount of edges used in MST = 8
+Weight of MST = 25
+
+Process finished with exit code 0
